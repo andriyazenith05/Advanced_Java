@@ -1,0 +1,88 @@
+body{
+   -fx-font-family: Arial; 
+}
+Label{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill :black;
+}
+text{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill :black;
+}
+#label1{
+    -fx-font-weight: normal;
+    -fx-font-size: 20px;
+    -fx-text-fill :white;
+}
+.text-field:focused , .combo-box:focused{
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #df4f56; 
+}
+.button{
+    -fx-background-color: transparent;
+    -fx-border-width: 2px;
+    -fx-border-color:#df4f56;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#loginbtn:pressed , #newloginbtn:pressed , #adminloginbtn:pressed , #asaddbtn:pressed, #ascbtn:pressed , #btn{
+    -fx-background-color: #df4f56;
+    -fx-text-fill: white;
+}
+#header{
+    -fx-background-color: #df4f56; 
+    -fx-text-fill:white;
+}
+#footer{
+    -fx-background-color: #7c2a36; 
+    -fx-text-fill:white;
+}
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+  .combo-box-base:focused {
+    -fx-background-color: white;
+    -fx-border-color:#df4f56;
+}
+
+.menu-bar{
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+.menu-bar .label {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+.context-menu {
+    -fx-background-color: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.menu-item .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-weight: normal;
+}
+#fromlocicon , #tolocicon {
+   -fx-background-image:url('loc.png');
+   -fx-background-repeat: no-repeat;
+   -fx-background-position: left center;
+   -fx-background-size: 25px;
+   -fx-font-size: 19;
+}
+#head{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-text-fill :white;
+}
+.table-row-cell {
+    -fx-cell-size: 70px;
+}
